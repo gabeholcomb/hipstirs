@@ -1,481 +1,481 @@
-!DOCTYPE html
-html lang=en
-head
-meta charset=UTF-8
-meta name=viewport content=width=device-width, initial-scale=1.0
-titleHip-Stirs Coffee House · Brookville, OHtitle
-link rel=preconnect href=httpsfonts.googleapis.com
-link href=httpsfonts.googleapis.comcss2family=Playfair+Displayital,wght@0,400;0,700;1,400&family=DM+Sanswght@300;400;500&display=swap rel=stylesheet
-link rel=stylesheet href=httpscdn.jsdelivr.netnpm@tablericons-webfont@latesttabler-icons.min.css
-style
-   { box-sizing border-box; margin 0; padding 0; }
-  body { font-family 'DM Sans', sans-serif; color #1a1a1a; background #f7f4f0; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hip-Stirs Coffee House · Brookville, OH</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'DM Sans', sans-serif; color: #1a1a1a; background: #f7f4f0; }
 
-   NAV 
+  /* NAV */
   .hs-nav {
-    background #fff;
-    border-bottom 1px solid rgba(0,0,0,0.08);
-    padding 0 2rem;
-    display flex;
-    align-items center;
-    justify-content space-between;
-    height 60px;
-    position sticky;
-    top 0;
-    z-index 20;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
   }
   .hs-logo {
-    font-family 'Playfair Display', serif;
-    font-size 21px;
-    font-weight 700;
-    color #1a1a1a;
-    display flex;
-    align-items center;
-    gap 8px;
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
-  .hs-nav-links { display flex; gap 1.75rem; list-style none; }
+  .hs-nav-links { display: flex; gap: 1.75rem; list-style: none; }
   .hs-nav-links a {
-    font-size 13px;
-    color #666;
-    text-decoration none;
-    cursor pointer;
-    transition color 0.2s;
+    font-size: 13px;
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s;
   }
-  .hs-nav-links ahover { color #7B4F2E; }
+  .hs-nav-links a:hover { color: #7B4F2E; }
 
-   HERO 
+  /* HERO */
   .hs-hero {
-    background #1E1007;
-    padding 4.5rem 2rem 4rem;
-    text-align center;
-    position relative;
-    overflow hidden;
+    background: #1E1007;
+    padding: 4.5rem 2rem 4rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
   }
-  .hs-beans-bg { position absolute; inset 0; pointer-events none; }
-  .hs-hero-inner { position relative; z-index 2; }
+  .hs-beans-bg { position: absolute; inset: 0; pointer-events: none; }
+  .hs-hero-inner { position: relative; z-index: 2; }
   .hs-eyebrow {
-    font-size 11px;
-    font-weight 500;
-    letter-spacing 3px;
-    text-transform uppercase;
-    color #C88C46;
-    margin-bottom 1.25rem;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #C88C46;
+    margin-bottom: 1.25rem;
   }
   .hs-hero h1 {
-    font-family 'Playfair Display', serif;
-    font-size 50px;
-    font-weight 400;
-    line-height 1.1;
-    color #F5ECD7;
-    margin-bottom 1.25rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #F5ECD7;
+    margin-bottom: 1.25rem;
   }
-  .hs-hero h1 em { font-style italic; color #C88C46; }
+  .hs-hero h1 em { font-style: italic; color: #C88C46; }
   .hs-hero p {
-    font-size 16px;
-    font-weight 300;
-    color rgba(245,236,215,0.65);
-    max-width 380px;
-    margin 0 auto 2rem;
-    line-height 1.75;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(245,236,215,0.65);
+    max-width: 380px;
+    margin: 0 auto 2rem;
+    line-height: 1.75;
   }
-  .hs-hero-btns { display flex; gap 10px; justify-content center; flex-wrap wrap; }
+  .hs-hero-btns { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
   .hs-btn-fill {
-    background #C88C46; color #1E1007; border none;
-    padding 11px 26px; border-radius 100px;
-    font-family 'DM Sans', sans-serif; font-size 14px; font-weight 500;
-    cursor pointer; transition background 0.2s;
+    background: #C88C46; color: #1E1007; border: none;
+    padding: 11px 26px; border-radius: 100px;
+    font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500;
+    cursor: pointer; transition: background 0.2s;
   }
-  .hs-btn-fillhover { background #D9A05A; }
+  .hs-btn-fill:hover { background: #D9A05A; }
   .hs-btn-ghost {
-    background transparent; color #F5ECD7;
-    border 1px solid rgba(245,236,215,0.35);
-    padding 11px 26px; border-radius 100px;
-    font-family 'DM Sans', sans-serif; font-size 14px; font-weight 400;
-    cursor pointer; transition border-color 0.2s;
+    background: transparent; color: #F5ECD7;
+    border: 1px solid rgba(245,236,215,0.35);
+    padding: 11px 26px; border-radius: 100px;
+    font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 400;
+    cursor: pointer; transition: border-color 0.2s;
   }
-  .hs-btn-ghosthover { border-color rgba(245,236,215,0.7); }
+  .hs-btn-ghost:hover { border-color: rgba(245,236,215,0.7); }
   .hs-rating {
-    display flex; align-items center; justify-content center;
-    gap 8px; margin-top 2.5rem; font-size 13px;
-    color rgba(245,236,215,0.45);
+    display: flex; align-items: center; justify-content: center;
+    gap: 8px; margin-top: 2.5rem; font-size: 13px;
+    color: rgba(245,236,215,0.45);
   }
-  .hs-rating-stars { color #C88C46; }
+  .hs-rating-stars { color: #C88C46; }
 
-   BEAN STRIP 
+  /* BEAN STRIP */
   .hs-bean-strip {
-    background #2C1A0E;
-    padding 1rem 2rem;
-    display flex; align-items center; justify-content center;
-    gap 2rem; overflow hidden; flex-wrap wrap;
+    background: #2C1A0E;
+    padding: 1rem 2rem;
+    display: flex; align-items: center; justify-content: center;
+    gap: 2rem; overflow: hidden; flex-wrap: wrap;
   }
   .hs-bean-pill {
-    display flex; align-items center; gap 8px;
-    font-size 13px; color rgba(245,236,215,0.55); white-space nowrap;
+    display: flex; align-items: center; gap: 8px;
+    font-size: 13px; color: rgba(245,236,215,0.55); white-space: nowrap;
   }
 
-   SECTIONS 
-  .hs-section { padding 3.25rem 2rem; max-width 700px; margin 0 auto; }
+  /* SECTIONS */
+  .hs-section { padding: 3.25rem 2rem; max-width: 700px; margin: 0 auto; }
   .hs-label {
-    font-size 10px; font-weight 500; letter-spacing 2.5px;
-    text-transform uppercase; color #7B4F2E; margin-bottom 0.625rem;
+    font-size: 10px; font-weight: 500; letter-spacing: 2.5px;
+    text-transform: uppercase; color: #7B4F2E; margin-bottom: 0.625rem;
   }
   .hs-section h2 {
-    font-family 'Playfair Display', serif;
-    font-size 30px; font-weight 400; line-height 1.2; margin-bottom 0.875rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px; font-weight: 400; line-height: 1.2; margin-bottom: 0.875rem;
   }
-  .hs-section  p { font-size 15px; font-weight 300; color #555; line-height 1.75; }
-  .hs-divider { border none; border-top 1px solid rgba(0,0,0,0.07); margin 0; }
+  .hs-section > p { font-size: 15px; font-weight: 300; color: #555; line-height: 1.75; }
+  .hs-divider { border: none; border-top: 1px solid rgba(0,0,0,0.07); margin: 0; }
 
-   TABS 
-  .hs-tabs { display flex; gap 6px; margin 1.75rem 0 1.25rem; flex-wrap wrap; }
+  /* TABS */
+  .hs-tabs { display: flex; gap: 6px; margin: 1.75rem 0 1.25rem; flex-wrap: wrap; }
   .hs-tab {
-    padding 6px 16px; border-radius 100px;
-    border 1px solid rgba(0,0,0,0.15); background #fff;
-    font-family 'DM Sans', sans-serif; font-size 13px; font-weight 400;
-    color #666; cursor pointer; transition all 0.15s;
+    padding: 6px 16px; border-radius: 100px;
+    border: 1px solid rgba(0,0,0,0.15); background: #fff;
+    font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 400;
+    color: #666; cursor: pointer; transition: all 0.15s;
   }
-  .hs-tab.active, .hs-tabhover { background #2C1A0E; border-color #2C1A0E; color #F5ECD7; }
-  .hs-menu-panel { display none; }
-  .hs-menu-panel.visible { display block; }
+  .hs-tab.active, .hs-tab:hover { background: #2C1A0E; border-color: #2C1A0E; color: #F5ECD7; }
+  .hs-menu-panel { display: none; }
+  .hs-menu-panel.visible { display: block; }
 
-   MENU CARDS 
-  .hs-menu-grid { display grid; grid-template-columns repeat(auto-fill, minmax(190px, 1fr)); gap 1rem; }
+  /* MENU CARDS */
+  .hs-menu-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 1rem; }
   .hs-menu-card {
-    background #fff; border 1px solid rgba(0,0,0,0.08);
-    border-radius 12px; padding 1.125rem; transition border-color 0.15s;
+    background: #fff; border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 12px; padding: 1.125rem; transition: border-color 0.15s;
   }
-  .hs-menu-cardhover { border-color rgba(0,0,0,0.2); }
+  .hs-menu-card:hover { border-color: rgba(0,0,0,0.2); }
   .hs-menu-icon {
-    width 36px; height 36px; border-radius 8px;
-    background #F5ECD7; display flex; align-items center;
-    justify-content center; margin-bottom 0.75rem;
+    width: 36px; height: 36px; border-radius: 8px;
+    background: #F5ECD7; display: flex; align-items: center;
+    justify-content: center; margin-bottom: 0.75rem;
   }
-  .hs-menu-card h3 { font-family 'Playfair Display', serif; font-size 15px; font-weight 400; margin-bottom 0.3rem; }
-  .hs-menu-card p { font-size 12px; color #777; line-height 1.5; font-weight 300; }
-  .hs-menu-card .hs-price { font-size 13px; font-weight 500; color #7B4F2E; margin-top 0.625rem; }
+  .hs-menu-card h3 { font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 400; margin-bottom: 0.3rem; }
+  .hs-menu-card p { font-size: 12px; color: #777; line-height: 1.5; font-weight: 300; }
+  .hs-menu-card .hs-price { font-size: 13px; font-weight: 500; color: #7B4F2E; margin-top: 0.625rem; }
 
-   FOOD TABLE 
-  .hs-food-section { margin-bottom 2rem; }
+  /* FOOD TABLE */
+  .hs-food-section { margin-bottom: 2rem; }
   .hs-food-section h4 {
-    font-size 11px; font-weight 500; letter-spacing 2px; text-transform uppercase;
-    color #888; margin-bottom 0.75rem; padding-bottom 0.5rem;
-    border-bottom 1px solid rgba(0,0,0,0.08);
+    font-size: 11px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+    color: #888; margin-bottom: 0.75rem; padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
   }
   .hs-food-row {
-    display flex; justify-content space-between; align-items baseline;
-    padding 7px 0; border-bottom 1px solid rgba(0,0,0,0.06); gap 1rem;
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding: 7px 0; border-bottom: 1px solid rgba(0,0,0,0.06); gap: 1rem;
   }
-  .hs-food-rowlast-child { border-bottom none; }
-  .hs-food-name { font-size 14px; font-weight 400; }
-  .hs-food-desc { font-size 12px; color #888; font-weight 300; }
-  .hs-food-price { font-size 13px; font-weight 500; color #7B4F2E; white-space nowrap; flex-shrink 0; }
-  .hs-note { font-size 12px; color #888; margin-top 1rem; line-height 1.5; font-style italic; }
+  .hs-food-row:last-child { border-bottom: none; }
+  .hs-food-name { font-size: 14px; font-weight: 400; }
+  .hs-food-desc { font-size: 12px; color: #888; font-weight: 300; }
+  .hs-food-price { font-size: 13px; font-weight: 500; color: #7B4F2E; white-space: nowrap; flex-shrink: 0; }
+  .hs-note { font-size: 12px; color: #888; margin-top: 1rem; line-height: 1.5; font-style: italic; }
 
-   ABOUT 
-  .hs-about-row { display grid; grid-template-columns repeat(auto-fit, minmax(180px, 1fr)); gap 1rem; margin-top 2rem; }
+  /* ABOUT */
+  .hs-about-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-top: 2rem; }
   .hs-about-card {
-    background #fff; border 1px solid rgba(0,0,0,0.08);
-    border-radius 12px; padding 1.25rem; text-align center;
+    background: #fff; border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 12px; padding: 1.25rem; text-align: center;
   }
-  .hs-about-card .hs-big { font-size 28px; margin-bottom 4px; }
-  .hs-about-card p { font-size 13px; color #666; line-height 1.5; }
+  .hs-about-card .hs-big { font-size: 28px; margin-bottom: 4px; }
+  .hs-about-card p { font-size: 13px; color: #666; line-height: 1.5; }
 
-   REVIEWS 
-  .hs-review-grid { display grid; grid-template-columns repeat(auto-fill, minmax(190px, 1fr)); gap 1rem; margin-top 2rem; }
-  .hs-review-card { background #fff; border 1px solid rgba(0,0,0,0.08); border-radius 12px; padding 1.125rem; }
-  .hs-review-stars { color #C88C46; font-size 12px; margin-bottom 0.5rem; }
-  .hs-review-card p { font-size 13px; color #666; line-height 1.55; font-style italic; margin-bottom 0.75rem; }
-  .hs-reviewer { font-size 12px; font-weight 500; }
+  /* REVIEWS */
+  .hs-review-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 1rem; margin-top: 2rem; }
+  .hs-review-card { background: #fff; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; padding: 1.125rem; }
+  .hs-review-stars { color: #C88C46; font-size: 12px; margin-bottom: 0.5rem; }
+  .hs-review-card p { font-size: 13px; color: #666; line-height: 1.55; font-style: italic; margin-bottom: 0.75rem; }
+  .hs-reviewer { font-size: 12px; font-weight: 500; }
 
-   VISIT 
-  .hs-visit-grid { display grid; grid-template-columns repeat(auto-fit, minmax(190px, 1fr)); gap 1rem; margin-top 2rem; }
-  .hs-visit-card { background #fff; border 1px solid rgba(0,0,0,0.08); border-radius 12px; padding 1.25rem; }
+  /* VISIT */
+  .hs-visit-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1rem; margin-top: 2rem; }
+  .hs-visit-card { background: #fff; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; padding: 1.25rem; }
   .hs-visit-label {
-    font-size 10px; font-weight 500; letter-spacing 2px; text-transform uppercase;
-    color #888; margin-bottom 0.75rem; display flex; align-items center; gap 6px;
+    font-size: 10px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+    color: #888; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 6px;
   }
   .hs-hours-row {
-    display flex; justify-content space-between; padding 5px 0;
-    border-bottom 1px solid rgba(0,0,0,0.06); font-size 13px;
+    display: flex; justify-content: space-between; padding: 5px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.06); font-size: 13px;
   }
-  .hs-hours-rowlast-child { border-bottom none; }
-  .hs-hours-day { color #888; }
-  .hs-hours-time { font-weight 500; }
-  .hs-visit-card p { font-size 14px; line-height 1.65; font-weight 300; }
-  .hs-visit-card a { color #7B4F2E; text-decoration none; font-weight 500; }
+  .hs-hours-row:last-child { border-bottom: none; }
+  .hs-hours-day { color: #888; }
+  .hs-hours-time { font-weight: 500; }
+  .hs-visit-card p { font-size: 14px; line-height: 1.65; font-weight: 300; }
+  .hs-visit-card a { color: #7B4F2E; text-decoration: none; font-weight: 500; }
 
-   FOOTER 
+  /* FOOTER */
   .hs-footer {
-    background #1E1007; color rgba(245,236,215,0.5);
-    padding 2.5rem 2rem; text-align center;
-    font-size 13px; line-height 1.8; position relative; overflow hidden;
+    background: #1E1007; color: rgba(245,236,215,0.5);
+    padding: 2.5rem 2rem; text-align: center;
+    font-size: 13px; line-height: 1.8; position: relative; overflow: hidden;
   }
-  .hs-footer-logo { font-family 'Playfair Display', serif; font-size 22px; color #F5ECD7; margin-bottom 0.5rem; }
-  .hs-footer a { color #C88C46; text-decoration none; }
-  .hs-footer-social { display flex; justify-content center; gap 1.25rem; margin 1rem 0; }
-  .hs-footer-social a { color rgba(245,236,215,0.4); font-size 18px; transition color 0.2s; }
-  .hs-footer-social ahover { color #C88C46; }
-  .hs-footer-beans { position absolute; bottom 0; left 0; right 0; opacity 0.06; pointer-events none; }
-style
-head
-body
+  .hs-footer-logo { font-family: 'Playfair Display', serif; font-size: 22px; color: #F5ECD7; margin-bottom: 0.5rem; }
+  .hs-footer a { color: #C88C46; text-decoration: none; }
+  .hs-footer-social { display: flex; justify-content: center; gap: 1.25rem; margin: 1rem 0; }
+  .hs-footer-social a { color: rgba(245,236,215,0.4); font-size: 18px; transition: color 0.2s; }
+  .hs-footer-social a:hover { color: #C88C46; }
+  .hs-footer-beans { position: absolute; bottom: 0; left: 0; right: 0; opacity: 0.06; pointer-events: none; }
+</style>
+</head>
+<body>
 
-  nav class=hs-nav
-    div class=hs-logo
-      svg width=22 height=22 viewBox=0 0 22 22 fill=none
-        ellipse cx=11 cy=11 rx=8 ry=10 fill=#7B4F2E transform=rotate(-20 11 11)
-        path d=M7 5 Q11 11 7 17 stroke=#F5ECD7 stroke-width=1.2 fill=none stroke-linecap=round
-      svg
+  <nav class="hs-nav">
+    <div class="hs-logo">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+        <ellipse cx="11" cy="11" rx="8" ry="10" fill="#7B4F2E" transform="rotate(-20 11 11)"/>
+        <path d="M7 5 Q11 11 7 17" stroke="#F5ECD7" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+      </svg>
       Hip-Stirs
-    div
-    ul class=hs-nav-links
-      lia onclick=document.getElementById('hs-menu').scrollIntoView({behavior'smooth'})Menuali
-      lia onclick=document.getElementById('hs-about').scrollIntoView({behavior'smooth'})Aboutali
-      lia onclick=document.getElementById('hs-visit').scrollIntoView({behavior'smooth'})Visitali
-    ul
-  nav
+    </div>
+    <ul class="hs-nav-links">
+      <li><a onclick="document.getElementById('hs-menu').scrollIntoView({behavior:'smooth'})">Menu</a></li>
+      <li><a onclick="document.getElementById('hs-about').scrollIntoView({behavior:'smooth'})">About</a></li>
+      <li><a onclick="document.getElementById('hs-visit').scrollIntoView({behavior:'smooth'})">Visit</a></li>
+    </ul>
+  </nav>
 
-  section class=hs-hero
-    svg class=hs-beans-bg viewBox=0 0 700 420 preserveAspectRatio=xMidYMid slice xmlns=httpwww.w3.org2000svg
-      g opacity=0.18
-        ellipse cx=60 cy=80 rx=16 ry=22 fill=#C88C46 transform=rotate(-30 60 80)
-        path d=M54 64 Q60 80 54 96 stroke=#1E1007 stroke-width=1.5 fill=none stroke-linecap=round
-        ellipse cx=620 cy=60 rx=14 ry=20 fill=#C88C46 transform=rotate(15 620 60)
-        path d=M614 46 Q620 60 614 74 stroke=#1E1007 stroke-width=1.5 fill=none stroke-linecap=round
-        ellipse cx=640 cy=300 rx=13 ry=18 fill=#C88C46 transform=rotate(-45 640 300)
-        path d=M630 287 Q640 300 630 313 stroke=#1E1007 stroke-width=1.5 fill=none stroke-linecap=round
-        ellipse cx=30 cy=340 rx=11 ry=16 fill=#C88C46 transform=rotate(20 30 340)
-        path d=M24 328 Q30 340 24 352 stroke=#1E1007 stroke-width=1.5 fill=none stroke-linecap=round
-        ellipse cx=680 cy=180 rx=10 ry=14 fill=#C88C46 transform=rotate(-10 680 180)
-        path d=M675 170 Q680 180 675 190 stroke=#1E1007 stroke-width=1.3 fill=none stroke-linecap=round
-        ellipse cx=90 cy=370 rx=9 ry=13 fill=#C88C46 transform=rotate(35 90 370)
-        path d=M85 360 Q90 370 85 380 stroke=#1E1007 stroke-width=1.2 fill=none stroke-linecap=round
-        ellipse cx=580 cy=390 rx=12 ry=17 fill=#C88C46 transform=rotate(-25 580 390)
-        path d=M574 378 Q580 390 574 402 stroke=#1E1007 stroke-width=1.4 fill=none stroke-linecap=round
-        ellipse cx=150 cy=50 rx=8 ry=12 fill=#C88C46 transform=rotate(40 150 50)
-        path d=M145 42 Q150 50 145 58 stroke=#1E1007 stroke-width=1.2 fill=none stroke-linecap=round
-      g
-      g opacity=0.12 stroke=#C88C46 stroke-width=1.5 fill=none stroke-linecap=round
-        path d=M340 300 Q344 285 340 270 Q336 255 340 240
-        path d=M352 310 Q356 292 352 274 Q348 256 352 238
-        path d=M328 308 Q332 293 328 278
-      g
-    svg
-    div class=hs-hero-inner
-      p class=hs-eyebrowBrookville, Ohiop
-      h1Where every cupbrfeels like emhomeemh1
-      pA neighborhood coffee house serving thoughtfully crafted drinks and genuine hospitality — one cup at a time.p
-      div class=hs-hero-btns
-        button class=hs-btn-fill onclick=document.getElementById('hs-menu').scrollIntoView({behavior'smooth'})See our menubutton
-        button class=hs-btn-ghost onclick=document.getElementById('hs-visit').scrollIntoView({behavior'smooth'})Find usbutton
-      div
-      div class=hs-rating
-        span class=hs-rating-stars★★★★★span
-        span4.5 stars · 260+ happy neighborsspan
-      div
-    div
-  section
+  <section class="hs-hero">
+    <svg class="hs-beans-bg" viewBox="0 0 700 420" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <g opacity="0.18">
+        <ellipse cx="60" cy="80" rx="16" ry="22" fill="#C88C46" transform="rotate(-30 60 80)"/>
+        <path d="M54 64 Q60 80 54 96" stroke="#1E1007" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <ellipse cx="620" cy="60" rx="14" ry="20" fill="#C88C46" transform="rotate(15 620 60)"/>
+        <path d="M614 46 Q620 60 614 74" stroke="#1E1007" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <ellipse cx="640" cy="300" rx="13" ry="18" fill="#C88C46" transform="rotate(-45 640 300)"/>
+        <path d="M630 287 Q640 300 630 313" stroke="#1E1007" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <ellipse cx="30" cy="340" rx="11" ry="16" fill="#C88C46" transform="rotate(20 30 340)"/>
+        <path d="M24 328 Q30 340 24 352" stroke="#1E1007" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <ellipse cx="680" cy="180" rx="10" ry="14" fill="#C88C46" transform="rotate(-10 680 180)"/>
+        <path d="M675 170 Q680 180 675 190" stroke="#1E1007" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+        <ellipse cx="90" cy="370" rx="9" ry="13" fill="#C88C46" transform="rotate(35 90 370)"/>
+        <path d="M85 360 Q90 370 85 380" stroke="#1E1007" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        <ellipse cx="580" cy="390" rx="12" ry="17" fill="#C88C46" transform="rotate(-25 580 390)"/>
+        <path d="M574 378 Q580 390 574 402" stroke="#1E1007" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+        <ellipse cx="150" cy="50" rx="8" ry="12" fill="#C88C46" transform="rotate(40 150 50)"/>
+        <path d="M145 42 Q150 50 145 58" stroke="#1E1007" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+      </g>
+      <g opacity="0.12" stroke="#C88C46" stroke-width="1.5" fill="none" stroke-linecap="round">
+        <path d="M340 300 Q344 285 340 270 Q336 255 340 240"/>
+        <path d="M352 310 Q356 292 352 274 Q348 256 352 238"/>
+        <path d="M328 308 Q332 293 328 278"/>
+      </g>
+    </svg>
+    <div class="hs-hero-inner">
+      <p class="hs-eyebrow">Brookville, Ohio</p>
+      <h1>Where every cup<br>feels like <em>home</em></h1>
+      <p>A neighborhood coffee house serving thoughtfully crafted drinks and genuine hospitality — one cup at a time.</p>
+      <div class="hs-hero-btns">
+        <button class="hs-btn-fill" onclick="document.getElementById('hs-menu').scrollIntoView({behavior:'smooth'})">See our menu</button>
+        <button class="hs-btn-ghost" onclick="document.getElementById('hs-visit').scrollIntoView({behavior:'smooth'})">Find us</button>
+      </div>
+      <div class="hs-rating">
+        <span class="hs-rating-stars">★★★★★</span>
+        <span>4.5 stars · 260+ happy neighbors</span>
+      </div>
+    </div>
+  </section>
 
-  div class=hs-bean-strip
-    span class=hs-bean-pill
-      svg width=14 height=18 viewBox=0 0 14 18 fill=noneellipse cx=7 cy=9 rx=5 ry=8 fill=#C88C46 transform=rotate(-15 7 9)path d=M4.5 2.5 Q7 9 4.5 15.5 stroke=#2C1A0E stroke-width=1.1 fill=none stroke-linecap=roundsvg
+  <div class="hs-bean-strip">
+    <span class="hs-bean-pill">
+      <svg width="14" height="18" viewBox="0 0 14 18" fill="none"><ellipse cx="7" cy="9" rx="5" ry="8" fill="#C88C46" transform="rotate(-15 7 9)"/><path d="M4.5 2.5 Q7 9 4.5 15.5" stroke="#2C1A0E" stroke-width="1.1" fill="none" stroke-linecap="round"/></svg>
       Boston Stoker coffee
-    span
-    span class=hs-bean-pill
-      svg width=14 height=18 viewBox=0 0 14 18 fill=noneellipse cx=7 cy=9 rx=5 ry=8 fill=#C88C46 transform=rotate(10 7 9)path d=M4.5 2.5 Q7 9 4.5 15.5 stroke=#2C1A0E stroke-width=1.1 fill=none stroke-linecap=roundsvg
+    </span>
+    <span class="hs-bean-pill">
+      <svg width="14" height="18" viewBox="0 0 14 18" fill="none"><ellipse cx="7" cy="9" rx="5" ry="8" fill="#C88C46" transform="rotate(10 7 9)"/><path d="M4.5 2.5 Q7 9 4.5 15.5" stroke="#2C1A0E" stroke-width="1.1" fill="none" stroke-linecap="round"/></svg>
       Drive-through
-    span
-    span class=hs-bean-pill
-      svg width=14 height=18 viewBox=0 0 14 18 fill=noneellipse cx=7 cy=9 rx=5 ry=8 fill=#C88C46 transform=rotate(-30 7 9)path d=M4.5 2.5 Q7 9 4.5 15.5 stroke=#2C1A0E stroke-width=1.1 fill=none stroke-linecap=roundsvg
+    </span>
+    <span class="hs-bean-pill">
+      <svg width="14" height="18" viewBox="0 0 14 18" fill="none"><ellipse cx="7" cy="9" rx="5" ry="8" fill="#C88C46" transform="rotate(-30 7 9)"/><path d="M4.5 2.5 Q7 9 4.5 15.5" stroke="#2C1A0E" stroke-width="1.1" fill="none" stroke-linecap="round"/></svg>
       Dine in &amp; outdoor seating
-    span
-    span class=hs-bean-pill
-      svg width=14 height=18 viewBox=0 0 14 18 fill=noneellipse cx=7 cy=9 rx=5 ry=8 fill=#C88C46 transform=rotate(20 7 9)path d=M4.5 2.5 Q7 9 4.5 15.5 stroke=#2C1A0E stroke-width=1.1 fill=none stroke-linecap=roundsvg
+    </span>
+    <span class="hs-bean-pill">
+      <svg width="14" height="18" viewBox="0 0 14 18" fill="none"><ellipse cx="7" cy="9" rx="5" ry="8" fill="#C88C46" transform="rotate(20 7 9)"/><path d="M4.5 2.5 Q7 9 4.5 15.5" stroke="#2C1A0E" stroke-width="1.1" fill="none" stroke-linecap="round"/></svg>
       In-store pickup
-    span
-  div
+    </span>
+  </div>
 
-  hr class=hs-divider
+  <hr class="hs-divider">
 
-  section class=hs-section id=hs-menu
-    p class=hs-labelWhat we makep
-    h2Drinks &amp; food crafted with careh2
-    pFrom our beloved Highlander Grogg to fresh boba, iced lattes, and a full lunch menu of salads and sandwiches.p
-    div class=hs-tabs
-      button class=hs-tab active onclick=showTab('drinks',this)Drinksbutton
-      button class=hs-tab onclick=showTab('food',this)Foodbutton
-    div
-    div class=hs-menu-panel visible id=tab-drinks
-      div class=hs-menu-grid
-        div class=hs-menu-card
-          div class=hs-menu-iconsvg width=20 height=22 viewBox=0 0 20 22 fill=noneellipse cx=10 cy=11 rx=7 ry=10 fill=#7B4F2E transform=rotate(-15 10 11)path d=M6.5 3.5 Q10 11 6.5 18.5 stroke=#F5ECD7 stroke-width=1.3 fill=none stroke-linecap=roundsvgdiv
-          h3Highlander Groggh3
-          pOur most-loved signature. Rich, warm, and totally unforgettable.p
-          p class=hs-priceAsk for pricingp
-        div
-        div class=hs-menu-card
-          div class=hs-menu-iconsvg width=20 height=22 viewBox=0 0 20 22 fill=noneellipse cx=10 cy=11 rx=7 ry=10 fill=#7B4F2E transform=rotate(20 10 11)path d=M6.5 3.5 Q10 11 6.5 18.5 stroke=#F5ECD7 stroke-width=1.3 fill=none stroke-linecap=roundsvgdiv
-          h3Milky Way Hip-Sterh3
-          pA fan-favorite latte — hot or iced, silky and sweet.p
-          p class=hs-priceAsk for pricingp
-        div
-        div class=hs-menu-card
-          div class=hs-menu-iconsvg width=20 height=22 viewBox=0 0 20 22 fill=noneellipse cx=10 cy=11 rx=7 ry=10 fill=#7B4F2E transform=rotate(-35 10 11)path d=M6.5 3.5 Q10 11 6.5 18.5 stroke=#F5ECD7 stroke-width=1.3 fill=none stroke-linecap=roundsvgdiv
-          h3Karmaccinoh3
-          pCreamy and comforting — a customer favorite by name.p
-          p class=hs-priceAsk for pricingp
-        div
-        div class=hs-menu-card
-          div class=hs-menu-iconsvg width=20 height=22 viewBox=0 0 20 22 fill=noneellipse cx=10 cy=11 rx=7 ry=10 fill=#C88C46 transform=rotate(10 10 11)path d=M6.5 3.5 Q10 11 6.5 18.5 stroke=#F5ECD7 stroke-width=1.3 fill=none stroke-linecap=roundsvgdiv
-          h3Boba Teah3
-          pGreen tea passion fruit and more — fresh, fun, and chewy.p
-          p class=hs-priceAsk for pricingp
-        div
-        div class=hs-menu-card
-          div class=hs-menu-iconsvg width=20 height=22 viewBox=0 0 20 22 fill=noneellipse cx=10 cy=11 rx=7 ry=10 fill=#C88C46 transform=rotate(-20 10 11)path d=M6.5 3.5 Q10 11 6.5 18.5 stroke=#F5ECD7 stroke-width=1.3 fill=none stroke-linecap=roundsvgdiv
-          h3Iced Lattesh3
-          pExpertly made, flavored however you like. Acai Pomegranate Blueberry is a regular hit.p
-          p class=hs-priceAsk for pricingp
-        div
-        div class=hs-menu-card
-          div class=hs-menu-iconsvg width=20 height=22 viewBox=0 0 20 22 fill=noneellipse cx=10 cy=11 rx=7 ry=10 fill=#7B4F2E transform=rotate(30 10 11)path d=M6.5 3.5 Q10 11 6.5 18.5 stroke=#F5ECD7 stroke-width=1.3 fill=none stroke-linecap=roundsvgdiv
-          h3Smoothiesh3
-          pBlended drinks with real fruit. Ask the crew what's fresh today.p
-          p class=hs-priceAsk for pricingp
-        div
-      div
-      p class=hs-noteDrink prices aren't posted online — call (937) 833-3723 or stop in and ask! Prices are very reasonable, typically $1–$10.p
-    div
-    div class=hs-menu-panel id=tab-food
-      div class=hs-food-section
-        h4Salads span style=font-weight300;text-transformnone;letter-spacing0— served with a focaccia rollspanh4
-        div class=hs-food-rowdivdiv class=hs-food-nameThe Spitfire Chicken Saladdivdiv class=hs-food-descHomemade chicken salad on house or Caesar saladdivdivspan class=hs-food-price$9.99spandiv
-        div class=hs-food-rowdivdiv class=hs-food-nameThe Flyboy Chef Saladdivdiv class=hs-food-descHam, turkey, bacon, tomato, cucumber, egg, cheddar &amp; jackdivdivspan class=hs-food-price$9.99spandiv
-        div class=hs-food-rowdivdiv class=hs-food-nameThe Rockefeller Cobbdivdiv class=hs-food-descGrilled chicken, bacon, avocado, blue cheese, egg, tomatodivdivspan class=hs-food-price$10.99spandiv
-        div class=hs-food-rowdivdiv class=hs-food-nameThe Orville House Saladdivdiv class=hs-food-descSignature mix, cheddar &amp; jack, tomato, cucumber, egg, bacondivdivspan class=hs-food-price$8.49spandiv
-        div class=hs-food-rowdivdiv class=hs-food-nameThe Brons Greek Saladdivdiv class=hs-food-descRomaine, tomato, Kalamata olive, feta, cucumber, pepperoncinidivdivspan class=hs-food-price$9.49spandiv
-      div
-      div class=hs-food-section
-        h4Sandwiches span style=font-weight300;text-transformnone;letter-spacing0— choice of bread, served with chips &amp; picklespanh4
-        div class=hs-food-rowdivdiv class=hs-food-nameThe Liberty Reubendivdiv class=hs-food-descCorned beef, Swiss, sauerkraut, Russian dressing on marble ryedivdivspan class=hs-food-price$9.99spandiv
-        div class=hs-food-rowdivdiv class=hs-food-nameThe Wright Turkeydivdiv class=hs-food-descRack-roasted turkey, cranberry orange chutney, herb cheesedivdivspan class=hs-food-price$8.49spandiv
-        div class=hs-food-rowdivdiv class=hs-food-nameThe Queens Roast Beefdivdiv class=hs-food-descRoast beef, cheddar, lettuce, tomato, homemade horseradish spreaddivdivspan class=hs-food-price$9.99spandiv
-        div class=hs-food-rowdivdiv class=hs-food-nameThe New Yorkerdivdiv class=hs-food-desc10 oz. pastrami &amp; corned beef, sharp cheddar, cole slaw, marble rye + 2 sidesdivdivspan class=hs-food-price$19.99spandiv
-        div class=hs-food-rowdivdiv class=hs-food-nameThe Wilbur Hot Ham &amp; Cheesedivdiv class=hs-food-descClassic comfortdivdivspan class=hs-food-price$7.99spandiv
-      div
-      div class=hs-food-section
-        h4Soups span style=font-weight300;text-transformnone;letter-spacing0— 2 served daily with focaccia rollspanh4
-        div class=hs-food-rowdivdiv class=hs-food-nameDaily Soupdivdiv class=hs-food-descMon veg vegetable &amp; clam chowder · Tue tomato bisque &amp; Italian wedding · Wed French onion &amp; chicken noodle · Thu 3 bean chili &amp; lobster bisque · Fri chicken tortilla &amp; broccoli cheddardivdivspan class=hs-food-price$3.99+spandiv
-        div class=hs-food-rowdivdiv class=hs-food-nameSoup &amp; Pint Salad Combodivdivspan class=hs-food-price$8.99spandiv
-      div
-      div class=hs-food-section
-        h4Sidesh4
-        div class=hs-food-rowdiv class=hs-food-nameNY Style Potato Saladdivspan class=hs-food-price$3.99spandiv
-        div class=hs-food-rowdiv class=hs-food-nameMacaroni Saladdivspan class=hs-food-price$3.99spandiv
-        div class=hs-food-rowdiv class=hs-food-nameCole Slawdivspan class=hs-food-price$3.75spandiv
-        div class=hs-food-rowdiv class=hs-food-name3 Bean Saladdivspan class=hs-food-price$5.99spandiv
-      div
-    div
-  section
+  <section class="hs-section" id="hs-menu">
+    <p class="hs-label">What we make</p>
+    <h2>Drinks &amp; food crafted with care</h2>
+    <p>From our beloved Highlander Grogg to fresh boba, iced lattes, and a full lunch menu of salads and sandwiches.</p>
+    <div class="hs-tabs">
+      <button class="hs-tab active" onclick="showTab('drinks',this)">Drinks</button>
+      <button class="hs-tab" onclick="showTab('food',this)">Food</button>
+    </div>
+    <div class="hs-menu-panel visible" id="tab-drinks">
+      <div class="hs-menu-grid">
+        <div class="hs-menu-card">
+          <div class="hs-menu-icon"><svg width="20" height="22" viewBox="0 0 20 22" fill="none"><ellipse cx="10" cy="11" rx="7" ry="10" fill="#7B4F2E" transform="rotate(-15 10 11)"/><path d="M6.5 3.5 Q10 11 6.5 18.5" stroke="#F5ECD7" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg></div>
+          <h3>Highlander Grogg</h3>
+          <p>Our most-loved signature. Rich, warm, and totally unforgettable.</p>
+          <p class="hs-price">Ask for pricing</p>
+        </div>
+        <div class="hs-menu-card">
+          <div class="hs-menu-icon"><svg width="20" height="22" viewBox="0 0 20 22" fill="none"><ellipse cx="10" cy="11" rx="7" ry="10" fill="#7B4F2E" transform="rotate(20 10 11)"/><path d="M6.5 3.5 Q10 11 6.5 18.5" stroke="#F5ECD7" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg></div>
+          <h3>Milky Way Hip-Ster</h3>
+          <p>A fan-favorite latte — hot or iced, silky and sweet.</p>
+          <p class="hs-price">Ask for pricing</p>
+        </div>
+        <div class="hs-menu-card">
+          <div class="hs-menu-icon"><svg width="20" height="22" viewBox="0 0 20 22" fill="none"><ellipse cx="10" cy="11" rx="7" ry="10" fill="#7B4F2E" transform="rotate(-35 10 11)"/><path d="M6.5 3.5 Q10 11 6.5 18.5" stroke="#F5ECD7" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg></div>
+          <h3>Karmaccino</h3>
+          <p>Creamy and comforting — a customer favorite by name.</p>
+          <p class="hs-price">Ask for pricing</p>
+        </div>
+        <div class="hs-menu-card">
+          <div class="hs-menu-icon"><svg width="20" height="22" viewBox="0 0 20 22" fill="none"><ellipse cx="10" cy="11" rx="7" ry="10" fill="#C88C46" transform="rotate(10 10 11)"/><path d="M6.5 3.5 Q10 11 6.5 18.5" stroke="#F5ECD7" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg></div>
+          <h3>Boba Tea</h3>
+          <p>Green tea passion fruit and more — fresh, fun, and chewy.</p>
+          <p class="hs-price">Ask for pricing</p>
+        </div>
+        <div class="hs-menu-card">
+          <div class="hs-menu-icon"><svg width="20" height="22" viewBox="0 0 20 22" fill="none"><ellipse cx="10" cy="11" rx="7" ry="10" fill="#C88C46" transform="rotate(-20 10 11)"/><path d="M6.5 3.5 Q10 11 6.5 18.5" stroke="#F5ECD7" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg></div>
+          <h3>Iced Lattes</h3>
+          <p>Expertly made, flavored however you like. Acai Pomegranate Blueberry is a regular hit.</p>
+          <p class="hs-price">Ask for pricing</p>
+        </div>
+        <div class="hs-menu-card">
+          <div class="hs-menu-icon"><svg width="20" height="22" viewBox="0 0 20 22" fill="none"><ellipse cx="10" cy="11" rx="7" ry="10" fill="#7B4F2E" transform="rotate(30 10 11)"/><path d="M6.5 3.5 Q10 11 6.5 18.5" stroke="#F5ECD7" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg></div>
+          <h3>Smoothies</h3>
+          <p>Blended drinks with real fruit. Ask the crew what's fresh today.</p>
+          <p class="hs-price">Ask for pricing</p>
+        </div>
+      </div>
+      <p class="hs-note">Drink prices aren't posted online — call (937) 833-3723 or stop in and ask! Prices are very reasonable, typically $1–$10.</p>
+    </div>
+    <div class="hs-menu-panel" id="tab-food">
+      <div class="hs-food-section">
+        <h4>Salads <span style="font-weight:300;text-transform:none;letter-spacing:0">— served with a focaccia roll</span></h4>
+        <div class="hs-food-row"><div><div class="hs-food-name">The Spitfire Chicken Salad</div><div class="hs-food-desc">Homemade chicken salad on house or Caesar salad</div></div><span class="hs-food-price">$9.99</span></div>
+        <div class="hs-food-row"><div><div class="hs-food-name">The Flyboy Chef Salad</div><div class="hs-food-desc">Ham, turkey, bacon, tomato, cucumber, egg, cheddar &amp; jack</div></div><span class="hs-food-price">$9.99</span></div>
+        <div class="hs-food-row"><div><div class="hs-food-name">The Rockefeller Cobb</div><div class="hs-food-desc">Grilled chicken, bacon, avocado, blue cheese, egg, tomato</div></div><span class="hs-food-price">$10.99</span></div>
+        <div class="hs-food-row"><div><div class="hs-food-name">The Orville House Salad</div><div class="hs-food-desc">Signature mix, cheddar &amp; jack, tomato, cucumber, egg, bacon</div></div><span class="hs-food-price">$8.49</span></div>
+        <div class="hs-food-row"><div><div class="hs-food-name">The Brons Greek Salad</div><div class="hs-food-desc">Romaine, tomato, Kalamata olive, feta, cucumber, pepperoncini</div></div><span class="hs-food-price">$9.49</span></div>
+      </div>
+      <div class="hs-food-section">
+        <h4>Sandwiches <span style="font-weight:300;text-transform:none;letter-spacing:0">— choice of bread, served with chips &amp; pickle</span></h4>
+        <div class="hs-food-row"><div><div class="hs-food-name">The Liberty Reuben</div><div class="hs-food-desc">Corned beef, Swiss, sauerkraut, Russian dressing on marble rye</div></div><span class="hs-food-price">$9.99</span></div>
+        <div class="hs-food-row"><div><div class="hs-food-name">The Wright Turkey</div><div class="hs-food-desc">Rack-roasted turkey, cranberry orange chutney, herb cheese</div></div><span class="hs-food-price">$8.49</span></div>
+        <div class="hs-food-row"><div><div class="hs-food-name">The Queens Roast Beef</div><div class="hs-food-desc">Roast beef, cheddar, lettuce, tomato, homemade horseradish spread</div></div><span class="hs-food-price">$9.99</span></div>
+        <div class="hs-food-row"><div><div class="hs-food-name">The New Yorker</div><div class="hs-food-desc">10 oz. pastrami &amp; corned beef, sharp cheddar, cole slaw, marble rye + 2 sides</div></div><span class="hs-food-price">$19.99</span></div>
+        <div class="hs-food-row"><div><div class="hs-food-name">The Wilbur Hot Ham &amp; Cheese</div><div class="hs-food-desc">Classic comfort</div></div><span class="hs-food-price">$7.99</span></div>
+      </div>
+      <div class="hs-food-section">
+        <h4>Soups <span style="font-weight:300;text-transform:none;letter-spacing:0">— 2 served daily with focaccia roll</span></h4>
+        <div class="hs-food-row"><div><div class="hs-food-name">Daily Soup</div><div class="hs-food-desc">Mon: veg vegetable &amp; clam chowder · Tue: tomato bisque &amp; Italian wedding · Wed: French onion &amp; chicken noodle · Thu: 3 bean chili &amp; lobster bisque · Fri: chicken tortilla &amp; broccoli cheddar</div></div><span class="hs-food-price">$3.99+</span></div>
+        <div class="hs-food-row"><div><div class="hs-food-name">Soup &amp; Pint Salad Combo</div></div><span class="hs-food-price">$8.99</span></div>
+      </div>
+      <div class="hs-food-section">
+        <h4>Sides</h4>
+        <div class="hs-food-row"><div class="hs-food-name">NY Style Potato Salad</div><span class="hs-food-price">$3.99</span></div>
+        <div class="hs-food-row"><div class="hs-food-name">Macaroni Salad</div><span class="hs-food-price">$3.99</span></div>
+        <div class="hs-food-row"><div class="hs-food-name">Cole Slaw</div><span class="hs-food-price">$3.75</span></div>
+        <div class="hs-food-row"><div class="hs-food-name">3 Bean Salad</div><span class="hs-food-price">$5.99</span></div>
+      </div>
+    </div>
+  </section>
 
-  hr class=hs-divider
+  <hr class="hs-divider">
 
-  section class=hs-section id=hs-about
-    p class=hs-labelOur storyp
-    h2More than just coffeeh2
-    pHip-Stirs is Brookville's gathering place — a cozy spot where friendly faces greet you by name and every drink is made with real care. Owner Nick and his team have built a community hub where great conversations flow right alongside expertly crafted beverages. Inspirational scriptures on the walls, neighbors at every table, fresh ingredients in every cup.p
-    div class=hs-about-row
-      div class=hs-about-carddiv class=hs-big☕divpBoston Stoker beans, specialty brewedpdiv
-      div class=hs-about-carddiv class=hs-big⭐divp4.5 stars from 260+ Brookville neighborspdiv
-      div class=hs-about-carddiv class=hs-big🫶divpFamily-owned by Nick &amp; his wifepdiv
-    div
-  section
+  <section class="hs-section" id="hs-about">
+    <p class="hs-label">Our story</p>
+    <h2>More than just coffee</h2>
+    <p>Hip-Stirs is Brookville's gathering place — a cozy spot where friendly faces greet you by name and every drink is made with real care. Owner Nick and his team have built a community hub where great conversations flow right alongside expertly crafted beverages. Inspirational scriptures on the walls, neighbors at every table, fresh ingredients in every cup.</p>
+    <div class="hs-about-row">
+      <div class="hs-about-card"><div class="hs-big">☕</div><p>Boston Stoker beans, specialty brewed</p></div>
+      <div class="hs-about-card"><div class="hs-big">⭐</div><p>4.5 stars from 260+ Brookville neighbors</p></div>
+      <div class="hs-about-card"><div class="hs-big">🫶</div><p>Family-owned by Nick &amp; his wife</p></div>
+    </div>
+  </section>
 
-  hr class=hs-divider
+  <hr class="hs-divider">
 
-  section class=hs-section
-    p class=hs-labelWhat people sayp
-    h2Loved by Brookvilleh2
-    div class=hs-review-grid
-      div class=hs-review-card
-        div class=hs-review-stars★★★★★div
-        pI love the Highlander Grogg. The staff truly cares about every customer's experience.p
-        span class=hs-reviewerLocal regularspan
-      div
-      div class=hs-review-card
-        div class=hs-review-stars★★★★★div
-        pVery personable with friendly staff. The drinks are fantastic — get there early for muffins!p
-        span class=hs-reviewerGoogle reviewerspan
-      div
-      div class=hs-review-card
-        div class=hs-review-stars★★★★★div
-        pNick and his wife are awesome. Great service at a fair price. My favorite coffee shop.p
-        span class=hs-reviewerTripAdvisor reviewerspan
-      div
-    div
-  section
+  <section class="hs-section">
+    <p class="hs-label">What people say</p>
+    <h2>Loved by Brookville</h2>
+    <div class="hs-review-grid">
+      <div class="hs-review-card">
+        <div class="hs-review-stars">★★★★★</div>
+        <p>"I love the Highlander Grogg. The staff truly cares about every customer's experience."</p>
+        <span class="hs-reviewer">Local regular</span>
+      </div>
+      <div class="hs-review-card">
+        <div class="hs-review-stars">★★★★★</div>
+        <p>"Very personable with friendly staff. The drinks are fantastic — get there early for muffins!"</p>
+        <span class="hs-reviewer">Google reviewer</span>
+      </div>
+      <div class="hs-review-card">
+        <div class="hs-review-stars">★★★★★</div>
+        <p>"Nick and his wife are awesome. Great service at a fair price. My favorite coffee shop."</p>
+        <span class="hs-reviewer">TripAdvisor reviewer</span>
+      </div>
+    </div>
+  </section>
 
-  hr class=hs-divider
+  <hr class="hs-divider">
 
-  section class=hs-section id=hs-visit
-    p class=hs-labelCome see usp
-    h2We'd love to have youh2
-    div class=hs-visit-grid
-      div class=hs-visit-card
-        p class=hs-visit-labelHoursp
-        div class=hs-hours-rowspan class=hs-hours-dayMon – Frispanspan class=hs-hours-time6 am – 6 pmspandiv
-        div class=hs-hours-rowspan class=hs-hours-daySaturdayspanspan class=hs-hours-time7 am – 6 pmspandiv
-        div class=hs-hours-rowspan class=hs-hours-daySundayspanspan class=hs-hours-time8 am – 2 pmspandiv
-      div
-      div class=hs-visit-card
-        p class=hs-visit-labelAddressp
-        p442 N Wolf Creek St, Suite 2brBrookville, OH 45309p
-      div
-      div class=hs-visit-card
-        p class=hs-visit-labelContactp
-        p style=margin-bottom0.75rema href=tel9378333723(937) 833-3723ap
-        p class=hs-visit-labelInstagramp
-        pa href=httpsinstagram.comhipstirscoffee@hipstirscoffeeap
-      div
-    div
-  section
+  <section class="hs-section" id="hs-visit">
+    <p class="hs-label">Come see us</p>
+    <h2>We'd love to have you</h2>
+    <div class="hs-visit-grid">
+      <div class="hs-visit-card">
+        <p class="hs-visit-label">Hours</p>
+        <div class="hs-hours-row"><span class="hs-hours-day">Mon – Fri</span><span class="hs-hours-time">6 am – 6 pm</span></div>
+        <div class="hs-hours-row"><span class="hs-hours-day">Saturday</span><span class="hs-hours-time">7 am – 6 pm</span></div>
+        <div class="hs-hours-row"><span class="hs-hours-day">Sunday</span><span class="hs-hours-time">8 am – 2 pm</span></div>
+      </div>
+      <div class="hs-visit-card">
+        <p class="hs-visit-label">Address</p>
+        <p>442 N Wolf Creek St, Suite 2<br>Brookville, OH 45309</p>
+      </div>
+      <div class="hs-visit-card">
+        <p class="hs-visit-label">Contact</p>
+        <p style="margin-bottom:0.75rem"><a href="tel:9378333723">(937) 833-3723</a></p>
+        <p class="hs-visit-label">Instagram</p>
+        <p><a href="https://instagram.com/hipstirscoffee">@hipstirscoffee</a></p>
+      </div>
+    </div>
+  </section>
 
-  footer class=hs-footer
-    svg class=hs-footer-beans viewBox=0 0 700 80 preserveAspectRatio=xMidYMid slice xmlns=httpwww.w3.org2000svg
-      g fill=#C88C46
-        ellipse cx=50 cy=55 rx=14 ry=20 transform=rotate(-20 50 55)
-        path d=M44 38 Q50 55 44 72 stroke=#1E1007 stroke-width=1.5 fill=none stroke-linecap=round
-        ellipse cx=160 cy=40 rx=11 ry=16 transform=rotate(25 160 40)
-        path d=M154 27 Q160 40 154 53 stroke=#1E1007 stroke-width=1.3 fill=none stroke-linecap=round
-        ellipse cx=300 cy=60 rx=13 ry=18 transform=rotate(-35 300 60)
-        path d=M293 44 Q300 60 293 76 stroke=#1E1007 stroke-width=1.4 fill=none stroke-linecap=round
-        ellipse cx=430 cy=38 rx=10 ry=15 transform=rotate(15 430 38)
-        path d=M424 26 Q430 38 424 50 stroke=#1E1007 stroke-width=1.2 fill=none stroke-linecap=round
-        ellipse cx=560 cy=55 rx=14 ry=20 transform=rotate(-15 560 55)
-        path d=M554 38 Q560 55 554 72 stroke=#1E1007 stroke-width=1.5 fill=none stroke-linecap=round
-        ellipse cx=670 cy=42 rx=11 ry=16 transform=rotate(30 670 42)
-        path d=M664 29 Q670 42 664 55 stroke=#1E1007 stroke-width=1.3 fill=none stroke-linecap=round
-      g
-    svg
-    div style=positionrelative;z-index1
-      div class=hs-footer-logoHip-Stirs Coffee Housediv
-      p442 N Wolf Creek St #2, Brookville, OH 45309br
-      a href=tel9378333723(937) 833-3723ap
-      div class=hs-footer-social
-        a href=httpsinstagram.comhipstirscoffee aria-label=Instagram&#xe5f3;a
-        a href=httpswww.facebook.comhipstirs aria-label=Facebook&#xe2e0;a
-      div
-      p style=font-size12px;margin-top0.5rem© 2026 Hip-Stirs Coffee House · Brookville, Ohiop
-    div
-  footer
+  <footer class="hs-footer">
+    <svg class="hs-footer-beans" viewBox="0 0 700 80" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <g fill="#C88C46">
+        <ellipse cx="50" cy="55" rx="14" ry="20" transform="rotate(-20 50 55)"/>
+        <path d="M44 38 Q50 55 44 72" stroke="#1E1007" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <ellipse cx="160" cy="40" rx="11" ry="16" transform="rotate(25 160 40)"/>
+        <path d="M154 27 Q160 40 154 53" stroke="#1E1007" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+        <ellipse cx="300" cy="60" rx="13" ry="18" transform="rotate(-35 300 60)"/>
+        <path d="M293 44 Q300 60 293 76" stroke="#1E1007" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+        <ellipse cx="430" cy="38" rx="10" ry="15" transform="rotate(15 430 38)"/>
+        <path d="M424 26 Q430 38 424 50" stroke="#1E1007" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        <ellipse cx="560" cy="55" rx="14" ry="20" transform="rotate(-15 560 55)"/>
+        <path d="M554 38 Q560 55 554 72" stroke="#1E1007" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <ellipse cx="670" cy="42" rx="11" ry="16" transform="rotate(30 670 42)"/>
+        <path d="M664 29 Q670 42 664 55" stroke="#1E1007" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+      </g>
+    </svg>
+    <div style="position:relative;z-index:1">
+      <div class="hs-footer-logo">Hip-Stirs Coffee House</div>
+      <p>442 N Wolf Creek St #2, Brookville, OH 45309<br>
+      <a href="tel:9378333723">(937) 833-3723</a></p>
+      <div class="hs-footer-social">
+        <a href="https://instagram.com/hipstirscoffee" aria-label="Instagram">&#xe5f3;</a>
+        <a href="https://www.facebook.com/hipstirs" aria-label="Facebook">&#xe2e0;</a>
+      </div>
+      <p style="font-size:12px;margin-top:0.5rem">© 2026 Hip-Stirs Coffee House · Brookville, Ohio</p>
+    </div>
+  </footer>
 
-script
+<script>
 function showTab(name, btn) {
-  document.querySelectorAll('.hs-menu-panel').forEach(p = p.classList.remove('visible'));
-  document.querySelectorAll('.hs-tab').forEach(t = t.classList.remove('active'));
+  document.querySelectorAll('.hs-menu-panel').forEach(p => p.classList.remove('visible'));
+  document.querySelectorAll('.hs-tab').forEach(t => t.classList.remove('active'));
   document.getElementById('tab-' + name).classList.add('visible');
   btn.classList.add('active');
 }
-script
-body
-html
+</script>
+</body>
+</html>
